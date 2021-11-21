@@ -2,6 +2,8 @@
 /* section{
     height: 100vh;
 } */
+
+
 .section-1{
     height: 100vh;
     background-image: url("./Assest/IMG/Main\ page\ Burger\ img.png");
@@ -33,7 +35,7 @@
     background-size: 100% 100%;
 }
 .section-7{
-    height: 100vh;
+    height: 796px;
     background-image: url("./Assest/IMG/Section-7.png");
     background-size: 100% 100%;
 }
@@ -46,7 +48,7 @@
     
     background-image: url("./Assest/IMG/Footer.png");
     background-size: 100% 100%;
-    height: 80vh;
+    height: 771px;
 }
 /*-------------------------------------------NAV-BAR--------------------------------*/
 .logo{
@@ -63,7 +65,7 @@ nav{
 
 .navlinks{
     display: flex;
-    letter-spacing: 3px;
+    letter-spacing: px;
     justify-content: space-around;
     width: 600px;
 }
@@ -76,15 +78,16 @@ nav{
 .navlinks a{
     color: white;
     text-decoration: none;
-    font-family: New York Small;
+    font-family: "Poppins";
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 20px;
 line-height: 170%;
-/* identical to box height, or 34px */
+
 
 text-align: center;
 letter-spacing: 0.12em;
+
 text-transform: uppercase;
 
 
@@ -133,4 +136,206 @@ text-transform: uppercase;
 section center h1{
     font-size: 48px;
     font-weight: 700;
+}
+/*-------------------------------------Best BURGER------------------------------*/
+.best-burger{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+}
+.bb-discrp{
+    color: white;
+    font-size: 20px;
+}
+.order-now-bb{
+    display: block;
+    border: 0;
+    font-size: 27px;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: #f64b3c;
+    padding: 8px 72px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/*-------------------------------------Best BURGER------------------------------*/
+.big-burger{
+    color: #f64b3c;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+}
+.bigb-discrp{
+    color: #f64b3c;
+    font-size: 20px;
+}
+.order-now-bigb{
+    display: block;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: white;
+    padding: 8px 72px;
+    border-radius: 50px;
+    background-color: #f64b3c;
+}
+.position-bigb{
+    position: relative;
+    left: 60px;
+}
+
+/* ------------------------Section-4-Statistics-------------------------- */
+#stat{
+    color: white;
+}
+.statistics{
+    font-family: 'Archivo', sans-serif;
+}
+.statis{
+  
+    border-style: solid;
+    padding: 105px;
+  margin: 15px;
+    border-width: 5px;
+    border-radius: 50%;
+
+    color: white;
+}
+.st{
+    position: relative;
+    right: 48px;
+    bottom: -25px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Archivo', sans-serif;
+}
+
+.sta{
+   
+    font-size: 25px;
+    font-weight: 500;
+font-family: 'Montserrat', sans-serif;
+}
+.CUSTOMER{
+    position: relative;
+    right: 54px;
+}
+.OUTLETS{
+    position: relative;
+    right: 43px;
+}
+.COUNTRY{
+    position: relative;
+    right: 61px;
+}
+.sk{
+    position: relative;
+    right: 64px;
+}
+.k{
+    position: relative;
+    left: -36px;
+}
+@media screen and (max-width:1197px){
+    
+   
+}
+/* ---------------------------------- Popular Packeges ----------------------------------- */
+#popular{
+    font-family: 'Archivo', sans-serif;
+    color: #f64b3c;
+    font-size: 60px;
+}
+.border{
+    background-color: white;
+    padding: 0px;
+    position: relative;
+    right: 4%;
+    border-radius: 2%;
+
+}
+#pp{
+    display: block;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 5px;
+    color: white;
+    padding: 8px 72px;
+    border-radius: 50px;
+    background-color: #f64b3c;  
+}
+.color{
+    color: #f64b3c;
+
+}
+.font{
+font-family: 'Archivo', sans-serif;
+}
+/* -------------------------------About-------------------------- */
+.about{
+    color: white;
+}
+.aFont{
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+}
+.Namef{
+font-size: 30px;
+letter-spacing: 1px;
+ 
+font-family: 'Calistoga', sans-serif ,cursive;
+ 
+}
+/* -------------------------Update---section-8-------------------------------------------- */
+#update{
+    font-size: 75px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+}
+#upd-lorem{
+    font-size: 30px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+}
+
+#Subscribe-btn{
+    font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+width: 222px;
+height: 65px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: #f64b3c;
+}
+.form-control{
+    width: 549px;
+height: 63px;
+border-radius: 30px;
+background-color: #ffffff;
+}
+/* ---------------------------------Footer--section-9----------------------------- */
+.fot-title{
+    font-size: 31px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+}
+
+.fot-discrip{
+  
+font-size: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
 }
